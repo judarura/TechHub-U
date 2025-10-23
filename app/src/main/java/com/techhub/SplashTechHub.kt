@@ -15,8 +15,7 @@ class SplashTechHub : AppCompatActivity() {
         setContentView(R.layout.activity_splash_tech_zone)
 
         Handler(Looper.getMainLooper()).postDelayed({
-            // La lógica de redireccionamiento
-            val intent = Intent(this, MainActivity::class.java)
+            val intent = Intent(this, Welcome::class.java)
             startActivity(intent)
             finish()
         }, SPLASH_DURATION)
