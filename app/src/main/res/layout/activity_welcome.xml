@@ -8,6 +8,21 @@
     android:background="@color/fondo_bienvenida"
     tools:context=".Welcome">
 
+    <Button
+        android:id="@+id/btnInicioSesion"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="76dp"
+        android:background="@color/white"
+        android:text="Iniciar sesión"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textWelcome" />
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="109dp"
@@ -36,16 +51,17 @@
         app:layout_constraintTop_toBottomOf="@id/imageView" />
 
     <Button
-        android:id="@+id/btnInicioSesion"
+        android:id="@+id/btnregistro"
         android:layout_width="200dp"
         android:layout_height="50dp"
-        android:text="Iniciar sesión"
-        android:textColor="@color/fondo_bienvenida"
+        android:layout_marginTop="12dp"
         android:background="@color/white"
-        android:textStyle="bold"
+        android:text="Registro"
         android:textAllCaps="false"
-        app:layout_constraintTop_toBottomOf="@id/textWelcome"
-        app:layout_constraintStart_toStartOf="parent"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintVertical_bias="0.65" />
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textWelcome" />
 </androidx.constraintlayout.widget.ConstraintLayout>
